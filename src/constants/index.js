@@ -17,13 +17,25 @@ import {
   docker,
   meta,
   starbucks,
+  greatfrontend,
+  nus,
   tesla,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  fastapi,
+  nextjs,
+  go,
+  postgresql,
+  gestura,
+  cryonixai,
+  connectheart,
+  foodie,
+  football,
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -42,32 +54,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Machine Learning",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Entrepreneurship",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Startup",
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -85,6 +89,10 @@ const technologies = [
     icon: redux,
   },
   {
+    name: "nextjs",
+    icon: nextjs
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -93,78 +101,47 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Go",
+    icon: go,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "FastAPI",
+    icon: fastapi,
   },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+
+ 
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer Intern",
+    company_name: "GreatFrontEnd",
+    icon: greatfrontend,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sep 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Scope, design, and develop new technical projects, laying the groundwork for early-stage products to iteratively evolve and scale.",
+      "Partner with business, product and design to translate growth strategies into technical plans.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Teaching Assistant",
+    company_name: "National University Of Singapore",
+    icon: nus,
+    iconBg: "#FFFFFF",
+    date: "Jan 2024 - May 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Conducted weekly C programming lab sessions for 10 undergraduates, helping them with fundamental concepts of programming.",
+      "Graded and provided feedback on students’ weekly programming assignments."
     ],
   },
 ];
@@ -198,67 +175,121 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Cryonix AI",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An innovative AI startup project focusing on developing cutting-edge solutions to empower businesses with their documents.",
     tags: [
       {
-        name: "react",
+        name: "Natural Language Processing",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "LLMs",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "flask",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: cryonixai,
+    source_code_link: "https://cryonixai.com/",
   },
   {
-    name: "Job IT",
+    name: "Gestura",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Short-video platform that allows deaf-mute content creators to upload their creative videos using sign language and translate content videos into sign language.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "fastapi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "medipipe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "opencv",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gestura,
+    source_code_link: "https://github.com/DanielJames0302/Gestura",
+  },
+  {
+    name: "Foodie",
+    description:
+      "A social web application that enables foodies to search for recipes, share their cooking skills, and so on",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "go",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "webhooks",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: foodie,
+    source_code_link: "https://github.com/DanielJames0302/Foodie",
+  },
+  {
+    name: "FootballAnalysis",
+    description:
+      "A machine learning pipeline to analyze football videos to extract key football strategies and players' information",
+    tags: [
+      {
+        name: "tensorflow",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "opencv",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: football,
+    source_code_link: "https://github.com/DanielJames0302/FootballAnalysis",
+  },
+  {
+    name: "Connect@Heart",
+    description:
+      "A website that facilitated a cost-effective system, enabling around 1000 volunteers to enroll and manage activities while non-profit organizations can effortlessly handle administration task",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: connectheart,
+    source_code_link: "https://github.com/DanielJames0302/ConnectHeart",
   },
 ];
 
