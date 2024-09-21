@@ -13,6 +13,7 @@ const Hero = () => {
           <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
           <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
+     
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
@@ -20,7 +21,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop Software Products, AI <br className='sm:block hidden' />
-            systems and Technical Content.
+            Systems and Technical Content.
           </p>
         </div>
       </div>

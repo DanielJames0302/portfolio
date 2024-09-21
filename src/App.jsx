@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import Video from "./components/Video";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
+        <Video />
         <About />
         <Experience />
         <Tech />
