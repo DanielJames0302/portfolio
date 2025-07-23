@@ -114,16 +114,16 @@ const Hero = () => {
                 Get in touch <Icons.arrowRight className="ml-2 size-4" />
               </Link>
             </Button>
-            <Button
+            {/* <Button
               variant="outline"
               size="lg"
               className="hidden sm:flex"
               asChild
             >
-              <a href="/TRAM_Minh_Man_CV.pdf" download>
+              <a href="/Tram_Minh_Man_CV.pdf" download>
                 Download CV <Icons.download className="ml-2 size-4" />
               </a>
-            </Button>
+            </Button> */}
             <Button variant="outline" size="icon" asChild>
               <Link
                 href="https://www.linkedin.com/in/man-tram/"
