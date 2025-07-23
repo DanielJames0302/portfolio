@@ -20,7 +20,7 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          I&apos;m Tram Minh Man, I&apos;m a penultimate Computer Science
+          I&apos;m Tram Minh Man, a penultimate Computer Science
           undergraduate student from National University of Singapore. I have a
           strong passion for Software Engineering and Artificial Intelligence
           because I am inspired by how innovative AI breakthroughs can be
