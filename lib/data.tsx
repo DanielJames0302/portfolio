@@ -37,6 +37,14 @@ export const links = [
 
 
 export const experiencesData = [
+    {
+    title: 'Software Engineer',
+    company: 'Health Informatics Research Lab',
+    description:
+      'Architected and developed a real-time chat service using Next.js, TypeScript, and AWS Amplify GraphQL API, achieving sub-200ms message delivery latency through optimized GraphQL subscriptions.',
+    period: 'May 2025 - July 2025',
+    technologies: ['Next.js', 'AWS Amplify / AppSync', 'GraphQL', 'Typescript'],
+  },
   {
     title: 'AI Engineering Intern',
     company: 'Amaris.AI',

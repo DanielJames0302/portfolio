@@ -97,6 +97,15 @@ export const projects = [
     technologies: ["Python", "TensorFlow", "OpenCV"],
     link: "https://github.com/DanielJames0302/FootballAnalysis",
   },
+  {
+    id: 4,
+    title: "Peerprep",
+    des: "A collaborative coding practice platform",
+    img: "/images/peerprep.png",
+    iconLists: ["/nextjs.svg", "/kafka.svg", "/typescript.svg", "/socket.io.svg", "/mongodb.svg", "/redis.svg"],
+    technologies: ["Next.js", "Kafka", "Typescript", "Socket.io", "MongoDB", "Redis"],
+    link: "https://github.com/CS3219-AY2526Sem1/cs3219-ay2526s1-project-g13",
+  },
 ];
 
 
