@@ -3,7 +3,7 @@ My personal portfolio website built using Next.js, Tailwind CSS and Framer-motio
 
 ## 📍 Live 
 
-Link to the live version:
+Link to the live version: [https://minhmantram.vercel.app](https://minhmantram.vercel.app)
 
 ## 💾 Installation 
 Download the project to your computer and install needed packages with command:
